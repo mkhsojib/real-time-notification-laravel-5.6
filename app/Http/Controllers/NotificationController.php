@@ -20,7 +20,7 @@ class NotificationController extends Controller
             $options
         );
 
-        $data['message'] = 'hello notification';
+        $data['message'] = 'hello investmentnovel';
         $pusher->trigger('notify-channel', 'App\\Events\\Notify', $data);
 
     }
